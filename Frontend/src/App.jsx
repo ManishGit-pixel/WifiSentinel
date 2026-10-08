@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import "./App.css";
 
-const API = "http://localhost:3000";
+const API = "https://wifisentinel-backend.onrender.com";
 
 function App() {
   const [events, setEvents] = useState([]);
@@ -220,7 +220,7 @@ function App() {
 
             <div>
               <span>Status</span>
-              <strong className="online">● Active</strong>
+              <strong className="online"> Active</strong>
             </div>
           </div>
         </section>
